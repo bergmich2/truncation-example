@@ -1,0 +1,50 @@
+.banner {
+  padding: 10px;
+  background-color: purple;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.banner-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-el {
+  color: white;
+  font-size: 24px;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+
+.a {
+  max-width: 300px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: auto;
+
+  flex: 0 0 auto;
+}
+
+.b {
+  max-width: 400px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+
+  flex: 0 1 auto;
+}
+
+.c {
+  flex: 1 1 auto;
+  text-align: right;
+}
+
+.tag {
+  background-color: orange;
+  padding: 5px;
+  border-radius: 15px;
+}
